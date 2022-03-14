@@ -1,12 +1,68 @@
-//starting here
+//starting javascript training here
+/*
+* I see how the syntaxt is very similar to C programmig language
+*/
+
+console.log("Hello World!");
+console.log("Hello " + "World!")
+
+//Properties
+
+      //console.log("SomeString".SomeMethod(remember to always put this))
+
+//Methods
+
+console.log("Hello".lenght);
+console.log("electro".toUpperCase());
+console.log("Nice".startsWith("N"));  //False or true if the word starts with that letter
+console.log("    Hello    ".trim());
+
+console.log(Math.floor(Math.random()*80));   // takes a random number, multiplies it by 50 and finds the closest int value
 
 
-//If statement
+
+//If statemen and if else
 
 let sale = true;
 
 sale = false;
 
-if(sale){
-  console.log('Time to buy!');
+if (false) {
+  console.log('The code in this block will not run.');
+} else {
+  console.log('But the code in this block will!');
+}
+
+//////
+
+let hungerLevel = 7;
+
+if(hungerLevel > 7){
+  console.log('Time to eat!');
+}else{
+  console.log('We can eat later!');
+}
+
+/*Comparisions 
+2 > 1
+5 < 10
+5 <= 4
+8 >= 7
+7 == 7
+6 !== 1
+
+Logical Operators
+
+  AND = &&
+  OR = | |
+  NOT = !
+*/
+
+let mood = 'sleepy';
+let tirednessLevel = 6;
+
+if(mood === 'sleepy' && tirednessLevel > 8){
+  console.log('time to sleep');
+}else{
+  console.log('not bed time yet');
 }
