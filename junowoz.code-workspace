@@ -1,13 +1,13 @@
 {
   "folders": [
     {
-      "path": "lab_projects"
-    },
-    {
       "path": "..\\junowoz.xyz"
     },
     {
       "path": "..\\blockchain"
+    },
+    {
+      "path": "..\\lab_projects"
     }
   ],
   "settings": {}
