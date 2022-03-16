@@ -1,0 +1,16 @@
+/*
+In order to add the css file to the index.html,
+add this: <link href="style.css"rel="stylesheet">
+
+Here, let´s organize the syntax
+
+Selector: P
+Declaration Code: { color: blue;}
+Declaration: color: blue;
+Property: color:
+Value: blue;
+*/
+
+p{
+    color: blue;
+}
