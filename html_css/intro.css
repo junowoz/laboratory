@@ -14,3 +14,19 @@ Value: blue;
 p{
     color: blue;
 }
+
+/*
+This is used to put universal attributes to all elements on the page*/
+* {  
+    border: 1px solid red;
+}
+
+/*
+To select an especific element,
+code on the html the class, and then declare it like this <p class='brand'></p>
+always using a (.) before the word
+*/
+
+.brand {
+
+}
