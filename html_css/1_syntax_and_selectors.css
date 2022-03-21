@@ -1,0 +1,81 @@
+/*
+SYNTAX AND SELECTORS
+In order to add the css file to the index.html,
+add this: <link href="style.css"rel="stylesheet">
+
+Here, let´s organize the syntax
+
+Selector: P
+Declaration Code: { color: blue;}
+Declaration: color: blue;
+Property: color:
+Value: blue;
+
+Selects all p tags
+*/
+
+p{
+    color: blue;
+}
+
+/*
+UNIVERSAL
+This is used to put universal attributes to all elements on the page*/
+* {  
+    border: 1px solid red;
+}
+
+/*
+CLASS
+To select an especific element,
+code on the html the class, and then declare it like this <p class='brand'></p>
+always using a (.) before the word
+*/
+
+.brand {
+
+}
+
+/*
+MULTIPLE CLASSES
+You can attribute more than one class to a single element, for instance
+*/
+
+.green {
+    color: green;
+}
+
+.bold {
+    font-weight: bold;
+}
+/*An then you only put <h1 class='green bold'> ... </h1> in the html code, calling the 2 classes*/
+
+/*
+ID
+now, to select just 1 element you do this on the html <h1 id='large-title'>... </h1>
+and then to select the id, on the css you use #name-of-the-id
+*/
+
+#large-title {
+
+}
+
+/*ATTRIBUTE
+to select a single attribute from a html element, let's say for instance:
+<img src='/images/seasons/cold/winter.jpg'><
+<img src='/images/seasons/warm/summer.jpg'>
+
+we would use to especify
+*/
+
+img[src*='winter'] {
+    height: 50px;
+}
+
+img[src*='summer'] {
+    height: 100px;
+}
+
+/*
+PSEUDO-CLASS
+*/
