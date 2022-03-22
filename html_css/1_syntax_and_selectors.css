@@ -27,9 +27,9 @@ This is used to put universal attributes to all elements on the page*/
 
 /*
 CLASS
-To select an especific element,
-code on the html the class, and then declare it like this <p class='brand'></p>
-always using a (.) before the word
+Classes are reused over many elements.
+To select an especific element, code on the html the class, and then declare 
+it like this <p class='brand'></p> always using a (.) before the word.
 */
 
 .brand {
@@ -39,6 +39,8 @@ always using a (.) before the word
 /*
 MULTIPLE CLASSES
 You can attribute more than one class to a single element, for instance
+
+ <h2 class='green bold'>
 */
 
 .green {
@@ -53,7 +55,8 @@ You can attribute more than one class to a single element, for instance
 /*
 ID
 now, to select just 1 element you do this on the html <h1 id='large-title'>... </h1>
-and then to select the id, on the css you use #name-of-the-id
+and then to select the id, on the css you use #name-of-the-id.
+Ids, are usually meant to be used 1 time.
 */
 
 #large-title {
@@ -78,4 +81,46 @@ img[src*='summer'] {
 
 /*
 PSEUDO-CLASS
+Makes changes in the interaction with the code, for example
+in this case, whenever you put the mouse on top of the <a> link, it will change
+it's color to orange.
+
+There are may pseudo-classes,
+:focus, :visited, :disabled, and :active. You can always search for more on the web.
 */
+
+a:hover {
+    color: darkorange;
+}
+
+/*SPECIFICITY
+which element will be chosen if I have different ways of choosing
+the same element. The answer is: The most specific description will win
+usually id's win,
+*/
+
+/*CHAINING
+we can select all the classes repeated in one element, lets say we have
+5 <h6 class='division'>, then to select all 5 classes of the h6, we would use:
+the element "h6" following a dot (.), and the name of the class.
+*/
+
+h6.division {
+    font-family: Tahoma;
+}
+
+/*DESCENDANT COMBINATOR
+CSS also supports selecting elements that are nested within other HTML elements,
+also known as descendants. For instance, consider the following HTML: 
+<ul class='main-list'>
+    <li>... </li>
+    <li>... </li>
+    <li>... </li>
+</ul>
+The nested <li> elements are descendants of the <ul >element 
+and can be selected with the descendant combinator like so:
+*/
+
+.main-list li {
+    color: aqua;
+}
