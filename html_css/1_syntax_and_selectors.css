@@ -119,6 +119,7 @@ also known as descendants. For instance, consider the following HTML:
 </ul>
 The nested <li> elements are descendants of the <ul >element 
 and can be selected with the descendant combinator like so:
+-
 */
 
 .main-list li {
