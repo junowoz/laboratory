@@ -33,7 +33,7 @@ it like this <p class='brand'></p> always using a (.) before the word.
 */
 
 .brand {
-
+    color: aliceblue;
 }
 
 /*
