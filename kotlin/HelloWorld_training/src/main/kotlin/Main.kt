@@ -1,5 +1,6 @@
 import javax.swing.event.RowSorterEvent.Type
 
+// Introduction, Data Types and Variables in Kotlin
 fun main(){
     println("Hello World!")
 
@@ -72,7 +73,7 @@ fun main(){
     println("The product of 6 and 2, is ${6 * 2}")  // Prints: The product of 6 and 2 is 12
 
     //Augmented Assignment operators
-    var speedOfLight = 186_000
+    var speedOfLight = 186000
     speedOfLight += 282
 
     println("The speed of light is ${speedOfLight}.")
@@ -85,4 +86,33 @@ fun main(){
 
     apples--
     println(apples) // Prints: 5
+
+    // Math Library
+
+    var ceil = Math.ceil(3.5)
+    println(ceil)
+
+    var sqrt = Math.sqrt(25.0)
+    println(sqrt)
+
+    var abs = Math.abs(-20)
+    println(abs)
+
+    var floor = Math.floor(6.9)
+    println(floor)
+
+    var random = Math.random()
+    println(random)
+
+    var round = Math.round(3.16)
+    println(round)
+
+    var min = Math.min(5, 3)
+    println(min)
+
+    var max = Math.max(8, 10)
+    println(max)
+
+    var pow = Math.pow(5.0, 3.0)
+    println(pow)
 }
