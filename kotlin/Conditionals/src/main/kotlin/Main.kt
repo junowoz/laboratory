@@ -14,7 +14,7 @@ fun main() {
     // Comparisions
     var d20 = 13
 
-    if (d20 >= 17)  {
+    if (d20 >= 17) {
         println("The incantation works and the dragon is defeated.")
     } else {
         println("The incantation fails and the dragon wins.")
@@ -23,11 +23,11 @@ fun main() {
     // Equality and Inequality
     var num1 = 8
     var num2 = 9
-    if (num1 % 2 == 0){
+    if (num1 % 2 == 0) {
         println("$num1 is even")
     }
 
-    if (num2 % 2 != 0){
+    if (num2 % 2 != 0) {
         println("$num2 is odd")
     }
 
@@ -37,9 +37,9 @@ fun main() {
 
     if (rewardsPoints >= 50) {
         memberType = "Platinum"
-    } else if (rewardsPoints >= 25){
+    } else if (rewardsPoints >= 25) {
         memberType = "Gold"
-    } else if (rewardsPoints >= 10){
+    } else if (rewardsPoints >= 10) {
         memberType = "Silver"
     } else {
         memberType = "Bronze"
@@ -76,7 +76,7 @@ fun main() {
     // When Expressions
 
     var name = "Juan"
-    when (name){
+    when (name) {
         "Pedro" -> println("Nope.")
         "Karl" -> println("Nope.")
         "Juan" -> println("Yup.")
@@ -84,13 +84,17 @@ fun main() {
     }
 
     var season = "Fall"
-    when (season){
+    when (season) {
         "Winter" -> println("Grow kale.")
         "Spring" -> println("Grow lettuce.")
         "Summer" -> println("Grow corn.")
         "Fall" -> println("Grow pumpkins.")
         else -> println("Not a valid season.")
     }
+
+    // Range
+    range()
+
 }
 
 // Nested Conditionals
@@ -108,6 +112,27 @@ fun planet() {
             println("Celestial body is a dwarf planet.")
         }
     }
+}
+
+// Range
+fun range() {
+
+    var sHU = 17000
+    var pungency: String
+
+    if (sHU in 0..699) {
+        pungency = "very mild"
+    } else if (sHU in 700..2999) {
+        pungency = "mild"
+    } else if (sHU in 3000..24999){
+        pungency = "moderate"
+    } else if (sHU in 25000..69999) {
+        pungency = "high"
+    } else {
+        pungency = "very high"
+    }
+
+    println("A pepper with $sHU Scoville Heat Units has a $pungency pungency.")
 }
 
 
