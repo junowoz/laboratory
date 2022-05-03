@@ -45,9 +45,18 @@ fun main() {
     val favoriteColors = mapOf("Jesse" to "Violet", "Megan" to "Red", "Tamala" to "Blue", "Jordan" to "Pink")
 
     println("\n-- Key: Value Output --")
-    // Write your code below
+    for((favoriteEntry, colors) in favoriteColors){
+        println("$favoriteEntry: $colors")
+    }
+    for(favoriteEntry in favoriteColors) { // Analog way
+        println("${favoriteEntry.key}: ${favoriteEntry.value}")
+    }
 
-    println("\n-- Only Values Output --")
-    // Write your code below
+    println("-- Only Values Output --")
+    for (color in favoriteColors.values){
+        println(color)
+    }
+
+    // While Loop
 
 }
