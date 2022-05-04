@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cab2109-167a-46e5-a995-062fe3ca4fb7" name="Changes" comment="" />
+    <list default="true" id="0cab2109-167a-46e5-a995-062fe3ca4fb7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Loops/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/Loops.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/out/production/Loops/META-INF/Loops.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/out/production/Loops/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/src/main/kotlin/Main.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +44,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;W:/Desktop/Code_/lab_projects/kotlin/3_Collections&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,6 +58,8 @@
       <updated>1651465623735</updated>
       <workItem from="1651465629304" duration="191000" />
       <workItem from="1651530753493" duration="3669000" />
+      <workItem from="1651618617803" duration="634000" />
+      <workItem from="1651622841819" duration="96000" />
     </task>
     <servers />
   </component>
