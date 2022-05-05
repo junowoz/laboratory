@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cab2109-167a-46e5-a995-062fe3ca4fb7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Loops/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/Loops.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/out/production/Loops/META-INF/Loops.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/out/production/Loops/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DIY_Fucntions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DIY_Fucntions/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +50,7 @@
       <workItem from="1651530753493" duration="3669000" />
       <workItem from="1651618617803" duration="634000" />
       <workItem from="1651622841819" duration="96000" />
+      <workItem from="1651749568288" duration="449000" />
     </task>
     <servers />
   </component>
