@@ -25,4 +25,11 @@ Todas as variaveis devem começas com uma letra
   float int_var;
   printf("\nHello World!\n");
 
+  int number = 1;
+  float flo = 1.2342345;
+  double dou = 3.564546357456;
+  char a = 'A';
+
+//Its a good practice to put constants in CAPS
+  const int DAYSWEEK = 7;
 }
