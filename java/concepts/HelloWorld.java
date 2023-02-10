@@ -59,6 +59,35 @@ public class HelloWorld {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//SUMMARIZING KEYWORDS
+
+//CLASS: must match the FileName (Pascal Case is when we capitalize every word)
+//SCOPE: {} are used to define a block of code, the scope of the class.
+//METHOD: Every java program must have a main method, a sequence of tasks, instructions. public static void main(String[] args)
+//PARAMETER: String[] args
+//STATEMENT: A single task. System.out.println("Hello World!");
+//EXPRESSION: "Hello World!"
+
+//VARIABLE: String name = "Bob";
+//TYPE: String, int, double, boolean, etc.
+//IDENTIFIER: name
+//LITERAL: "Bob"
+
+//KEYWORD: public, static, void, class, String, etc.
+//SEMICOLON: ;
+//COMMENT: // or /* */
+//OPERATOR: =, +, -, *, /, etc.
+//PUNCTUATION: (, ), {, }, etc.
+//NULL: null
+//MODIFIER: public, static, etc.
+//PACKAGE: java.lang
+//IMPORT: import java.lang.System;
+//JAVADOC: /** */
+//INTERPRETER: java
+//JVM: Java Virtual Machine
+//BYTECODE: Java bytecode
+//BYTECODE FILE: .class
+//SOURCE FILE: .java
 
     }
 }
