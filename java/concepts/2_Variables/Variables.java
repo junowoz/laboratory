@@ -62,7 +62,7 @@ public class Variables {
 
     /**
      * We covered:
-     * 
+     *
      * - int, which stores whole numbers.
      * - double, which stores bigger whole numbers and decimal numbers.
      * - boolean, which stores true and false.
@@ -124,5 +124,97 @@ public class Variables {
     a /= 20;
     a -= 5;
 
+    /*
+     * Order of Operations:
+     * 1. Parentheses
+     * 2. Exponents
+     * 3. Modulo/Multiplication/Division
+     * 4. Addition/Subtraction
+     */
+
+    int expression1 = 5 % 2 - (4 * 2 - 1);
+    // System.out.println(expression1);
+
+    int expression2 = (3 + (2 * 2 - 5)) + 6 - 5;
+    // System.out.println(expression2);
+
+    int expression3 = 5 * 4 % 3 - 2 + 1;
+    // System.out.println(expression3);
+
+    /*
+     * Greater Than and Less Than
+     * - Greater Than: >
+     * - Less Than: <
+     * 
+     * Equals and Not Equals
+     * - Equal To: ==
+     * - Not Equal To: !=
+     * 
+     * Greater/Less Than or Equal To
+     * - Greater Than or Equal To: >=
+     * - Less Than or Equal To: <=
+     * 
+     */
+    int b = 5;
+    int c = 10;
+
+    System.out.println(b > c); // Prints: false
+    System.out.println(b < c); // Prints: true
+    System.out.println(b >= c); // Prints: false
+    System.out.println(b <= c); // Prints: true
+    System.out.println(b == c); // Prints: false
+    System.out.println(b != c); // Prints: true
+    System.out.println();
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /*
+     * .equals()
+     * Use .equals() instead of == when comparing objects.
+     * == compares the memory address of the objects.
+     * .equals() compares the values of the objects.
+     */
+
+    String person1 = "Paul";
+    String person2 = "John";
+    String person3 = "Paul";
+
+    System.out.println(person1.equals(person2));
+    // Prints false, since "Paul" is not "John"
+
+    System.out.println(person1.equals(person3));
+    // Prints true, since "Paul" is "Paul"
+
+    /*
+     * String Concatenation
+     * Use the + operator to concatenate strings.
+     */
+    String firstName1 = "John";
+    String lastName1 = "Doe";
+    System.out.println(firstName1 + " " + lastName1);
+
+    /*
+     * final Keyword
+     * To declare a variable with a value that cannot be manipulated, we need to use
+     * the final keyword. To use the final keyword, prepend final to a variable
+     * declaration like so:
+     */
+    final int yearBorn = 1968;
+
+    /**
+     * We covered:
+     * 
+     * Addition and subtraction, using + and -
+     * Multiplication and division, using * and /
+     * The modulo operator for finding remainders, %
+     * Compound assignment operators +=, -=, *=, /=, and %=.
+     * The order of operations: parentheses -> exponents -> multiplication,
+     * division, modulo -> addition, subtraction
+     * Greater than, >, and less than, <
+     * Equal to, ==, and not equal to, !=
+     * Greater than or equal to, >=, and less than or equal to, <=
+     * equals() for comparing Strings and other objects
+     * Using + to concatenate Strings
+     * The final keyword which makes variables unchangeable
+     */
   }
 }

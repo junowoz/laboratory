@@ -28,7 +28,7 @@ public class MadLibs {
         + name1 + " in a puddle of frozen " + noun5 + ". " + name1 + " woke up in the year " + number
         + ", in a world where " + noun6 + "s ruled the world.";
 
-      System.out.println(story);
+    System.out.println(story);
 
   }
 }
